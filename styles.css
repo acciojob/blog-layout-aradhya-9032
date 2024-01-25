@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.blog-layout {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Add additional styling as needed */
